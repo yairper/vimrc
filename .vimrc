@@ -27,4 +27,5 @@ call plug#begin()
   Plug 'ervandew/supertab'
   Plug 'tpope/vim-fugitive'
   Plug 'pangloss/vim-javascript'
+  Plug 'digitaltoad/vim-pug'
 call plug#end()
