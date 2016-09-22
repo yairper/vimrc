@@ -24,10 +24,10 @@ match ws /\s\+$/
 
 call plug#begin()
   Plug 'kien/ctrlp.vim'
-  Plug 'ervandew/supertab'
   Plug 'tpope/vim-fugitive'
+  Plug 'ervandew/supertab'
   
-  Plug 'pangloss/vim-javascript'
   Plug 'kchmck/vim-coffee-script'
+  Plug 'pangloss/vim-javascript'
   Plug 'digitaltoad/vim-pug'
 call plug#end()
