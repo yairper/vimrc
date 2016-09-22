@@ -26,6 +26,8 @@ call plug#begin()
   Plug 'kien/ctrlp.vim'
   Plug 'ervandew/supertab'
   Plug 'tpope/vim-fugitive'
+  
   Plug 'pangloss/vim-javascript'
+  Plug 'kchmck/vim-coffee-script'
   Plug 'digitaltoad/vim-pug'
 call plug#end()
