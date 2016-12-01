@@ -9,8 +9,8 @@ set autoindent
 set ruler
 set visualbell
 
-set shiftwidth=4
-set softtabstop=4
+set shiftwidth=2
+set softtabstop=2
 set expandtab
 
 set wildignore+=**/node_modules
@@ -18,16 +18,23 @@ set wildignore+=**/bower_components
 set foldmethod=indent
 set noswapfile
 
-colorscheme desert
+colorscheme peachpuff
 highlight ws ctermbg=red guibg=red
 match ws /\s\+$/
 
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+imap <up> <nop>
+imap <down> <nop>
+imap <left> <nop>
+imap <right> <nop>
+
 call plug#begin()
   Plug 'kien/ctrlp.vim'
-  Plug 'tpope/vim-fugitive'
   Plug 'ervandew/supertab'
-  
-  Plug 'kchmck/vim-coffee-script'
   Plug 'pangloss/vim-javascript'
+  Plug 'kchmck/vim-coffee-script'
   Plug 'digitaltoad/vim-pug'
 call plug#end()
