@@ -18,7 +18,6 @@ set wildignore+=**/bower_components
 set foldmethod=indent
 set noswapfile
 
-colorscheme peachpuff
 highlight ws ctermbg=red guibg=red
 match ws /\s\+$/
 
@@ -35,6 +34,4 @@ call plug#begin()
   Plug 'kien/ctrlp.vim'
   Plug 'ervandew/supertab'
   Plug 'pangloss/vim-javascript'
-  Plug 'kchmck/vim-coffee-script'
-  Plug 'digitaltoad/vim-pug'
 call plug#end()
